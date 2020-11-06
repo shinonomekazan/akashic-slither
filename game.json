@@ -1,0 +1,112 @@
+{
+	"width": 1280,
+	"height": 720,
+	"fps": 60,
+	"main": "./script/main.js",
+	"assets": {
+		"shot": {
+			"type": "image",
+			"width": 16,
+			"height": 16,
+			"path": "image/shot.png"
+		},
+		"dot0": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/dot.png"
+		},
+		"dot1": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/dot1.png"
+		},
+		"dot2": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/dot2.png"
+		},
+		"dot3": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/dot3.png"
+		},
+		"dot4": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/dot4.png"
+		},
+		"dot5": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/dot5.png"
+		},
+		"dot6": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/dot6.png"
+		},
+		"dot7": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/dot7.png"
+		},
+		"dot8": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/dot8.png"
+		},
+		"dot9": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/dot9.png"
+		},
+		"face": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/face.png"
+		},
+		"food": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/food.png"
+		},
+		"btn_play": {
+			"type": "image",
+			"width": 128,
+			"height": 48,
+			"path": "image/btn_play.png"
+		},
+		"se": {
+			"type": "audio",
+			"path": "audio/se",
+			"systemId": "sound",
+			"duration": 250
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"player": {
+			"type": "script",
+			"path": "script/player.js",
+			"global": true
+		}
+	},
+	"moduleMainScripts": {},
+	"environment": {
+		"sandbox-runtime": "2"
+	}
+}
