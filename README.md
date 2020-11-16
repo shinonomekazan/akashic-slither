@@ -12,3 +12,10 @@ npm install
 * `npm start`
 
 * `npm install -g @akashic/akashic-sandbox` 後、 `akashic-sandbox .`
+ 
+
+## LICENSE
+
+- Source code: [MIT License](./LICENSE)
+- Licensed Asset
+    - [CC BY 2.1 JP](https://creativecommons.org/licenses/by/2.1/jp/)
