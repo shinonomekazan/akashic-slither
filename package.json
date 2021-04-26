@@ -1,17 +1,26 @@
 {
-  "name": "akashic-slither",
-  "version": "0.1.0",
-  "description": "",
-  "scripts": {
-    "start": "akashic-sandbox .",
-    "lint": "eslint script",
-    "test": "npm run lint"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "@akashic/akashic-sandbox": "~0.16.21",
-    "eslint": "7.10.0"
-  }
+	"name": "akashic-slither",
+	"version": "0.1.0",
+	"description": "",
+	"scripts": {
+		"start": "akashic-sandbox .",
+		"lint": "eslint script",
+		"test": "npm run lint",
+		"update": "akashic-cli-scan asset && akashic-cli-scan globalScripts",
+		"serve": "akashic-cli-serve --no-open-browser",
+		"export:zip": "rimraf game.zip && akashic-cli-export-zip -o game.zip -s",
+		"export:html": "rimraf game && akashic-cli-export-html -o game",
+		"export:content": "rimraf game.zip && akashic-cli-export-html -o ./game.zip --atsumaru"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@akashic/akashic-cli-export-html": "^1.4.3",
+		"@akashic/akashic-cli-export-zip": "^0.9.1",
+		"@akashic/akashic-cli-scan": "^0.10.0",
+		"@akashic/akashic-cli-serve": "^1.8.0",
+		"@akashic/akashic-sandbox": "~0.16.21",
+		"eslint": "7.10.0"
+	}
 }
