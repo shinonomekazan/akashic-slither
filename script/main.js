@@ -275,7 +275,7 @@ function GameCore(scene) {
 
         scene.message.add((msg) => {
             var playerId = msg.player.id;
-            console.log("new message from player" + playerId);
+            //console.log("new message from player" + playerId);
 
             if (!playerId || !msg.data) return;
 
@@ -714,6 +714,7 @@ function Food(scene, gameCore, position) {
 
     this.start();
 }
+
 function Vector2(x, y) {
     this.x = x || 0;
     this.y = y || 0;
